@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "start_001",
+    "text": "遅えぞ！ メトロノームは待ってくれねえんだよ！",
+    "trigger": [
+      "startup"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "start_002",
+    "text": "おう、来たか。今日は指の動きが良さそうじゃねえか。",
+    "trigger": [
+      "startup"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "start_003",
+    "text": "……（二日酔いで死んでいる）……勝手に始めろ……",
+    "trigger": [
+      "startup"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  },
+  {
+    "id": "start_004",
+    "text": "準備はいいか？ スマホを持つ手にも魂を込めろよ。",
+    "trigger": [
+      "startup"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "advice_tech_001",
+    "text": "ルート音を見失うな。そこが『実家』だ。迷ったら実家に帰れ。",
+    "trigger": [
+      "advice",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "advice_tech_002",
+    "text": "3度は『感情』だ。メジャーかマイナーか、白黒はっきりつけろ！",
+    "trigger": [
+      "advice",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "advice_tech_003",
+    "text": "小指をサボらせるな。小指はお前の『一番若い弟子』だと思って鍛えろ。",
+    "trigger": [
+      "advice",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "advice_tech_004",
+    "text": "リズムが走ってるぞ！ お前は生き急いでるのか？",
+    "trigger": [
+      "advice",
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "advice_tech_005",
+    "text": "隣の弦の『5度』の位置、もう身体で覚えたか？ そこが安全地帯だ。",
+    "trigger": [
+      "advice"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "gear_001",
+    "text": "そのギター、弦高が高すぎねえか？ 弓矢でも飛ばす気かよ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "gear_002",
+    "text": "シールドは『8の字巻き』だ。結んで片付ける奴は破門だぞ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "gear_003",
+    "text": "昔はな、アンプの歪みを作るためにスピーカーをカッターで切ったもんだ……やるなよ？",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "NORMAL"
+  },
+  {
+    "id": "gear_004",
+    "text": "エフェクターなんざ飾りだ。男は黙ってアンプ直（チョク）！",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "LAUGH"
+  },
+  {
+    "id": "gear_005",
+    "text": "お前のピック、削れ方が汚ねえな。もっと力を抜け。",
+    "trigger": [
+      "idle",
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "life_001",
+    "text": "……腹減ったな。帰りに牛丼でも食うか。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "life_002",
+    "text": "腰が痛え……ギタリストの職業病だ。お前も姿勢には気をつけろよ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "life_003",
+    "text": "昨日の酒がまだ残ってやがる……Eコードが二重に見えるぞ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "life_004",
+    "text": "昔の女に似てるな……その『Fmaj7』の響き……。",
+    "trigger": [
+      "idle",
+      "clear"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "praise_001",
+    "text": "いいぞ！ その音だ！",
+    "trigger": [
+      "praise_s"
+    ],
+    "rarity": "common",
+    "face": "HAPPY"
+  },
+  {
+    "id": "praise_002",
+    "text": "乗ってきたじゃねえか！",
+    "trigger": [
+      "praise_s"
+    ],
+    "rarity": "common",
+    "face": "HAPPY"
+  },
+  {
+    "id": "praise_003",
+    "text": "見ろ！ 指板が喜んでるぞ！",
+    "trigger": [
+      "praise_l"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "praise_004",
+    "text": "……今のフレーズ、俺の若い頃より速いかもしれん。",
+    "trigger": [
+      "praise_l"
+    ],
+    "rarity": "epic",
+    "face": "DOYA"
+  },
+  {
+    "id": "praise_005",
+    "text": "酒だ！ 酒を持ってこい！ 最高のテイクだ！",
+    "trigger": [
+      "praise_l"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "scold_001",
+    "text": "バカヤロー！！ そこはアボイドだ！",
+    "trigger": [
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "scold_002",
+    "text": "耳を使え！ 指だけで弾くな！",
+    "trigger": [
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "scold_003",
+    "text": "その音はダサい！ 実にダサいぞ！",
+    "trigger": [
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "scold_004",
+    "text": "出直してこい！ キャベツの千切りからやり直しだ！",
+    "trigger": [
+      "miss",
+      "gameover"
+    ],
+    "rarity": "rare",
+    "face": "ANGRY"
+  },
+  {
+    "id": "meta_001",
+    "text": "おい、バッテリー残量は大丈夫か？ 途中で落ちたら承知しねえぞ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "meta_002",
+    "text": "画面が指紋でベタベタじゃねえか。ハンカチで拭け。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "meta_003",
+    "text": "課金アイテム？ ……フン、金の力も実力のうちだ。",
+    "trigger": [
+      "shop"
+    ],
+    "rarity": "common",
+    "face": "DOYA"
+  },
+  {
+    "id": "legend_001",
+    "text": "……俺の左目か？ 昔、ハイE弦が切れて飛んできてな……嘘だけどな。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "legendary",
+    "face": "DOYA"
+  },
+  {
+    "id": "legend_002",
+    "text": "実はお前のような弟子を持てて、俺は少し嬉しいんだ。……忘れろ。",
+    "trigger": [
+      "clear"
+    ],
+    "rarity": "legendary",
+    "face": "HAPPY"
+  },
+  {
+    "id": "gear_deep_001",
+    "text": "おい、エフェクターの電池、アルカリ使ってねえだろうな？ ファズにはマンガンだ。枯れた音がしねえぞ。",
+    "trigger": [
+      "gear",
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "ANGRY"
+  },
+  {
+    "id": "gear_deep_002",
+    "text": "トゥルーバイパス信仰もいいがな、先頭にバッファーを一発噛ませろ。音が痩せてガイコツみたいになってるぞ。",
+    "trigger": [
+      "gear",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "gear_deep_003",
+    "text": "真空管の焼ける匂い……これこそがロックンロールの香水だ。デジタル臭い部屋を換気しろ。",
+    "trigger": [
+      "gear",
+      "startup"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  },
+  {
+    "id": "gear_deep_004",
+    "text": "シールドには『向き』があるんだよ。矢印がアンプ側だ。……オカルトだと？ うるせえ、俺には聴こえるんだよ！",
+    "trigger": [
+      "gear",
+      "idle"
+    ],
+    "rarity": "epic",
+    "face": "ANGRY"
+  },
+  {
+    "id": "gear_deep_005",
+    "text": "レスポールってのはな、4キログラムの『業（カルマ）』を肩に背負う修行なんだよ。重いとか泣き言を言うな。",
+    "trigger": [
+      "gear",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "gear_deep_006",
+    "text": "ラッカー塗装のネックがベタつく？ 手汗を拭け！ その粘り気がサステインを生むんだ（適当）。",
+    "trigger": [
+      "gear",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "gear_deep_007",
+    "text": "コンデンサを『オレンジドロップ』に変えただけで上手くなった気になるなよ？ ……まあ、プラシーボも実力のうちだがな。",
+    "trigger": [
+      "gear",
+      "shop"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "gear_deep_008",
+    "text": "「トーンは指で作る」……金のない奴の言い訳だ。俺は「トーンは金で作る」派だ。",
+    "trigger": [
+      "gear",
+      "shop"
+    ],
+    "rarity": "epic",
+    "face": "DOYA"
+  },
+  {
+    "id": "gear_deep_009",
+    "text": "その歪み、デジタルだな？ ……粒が揃いすぎてて面白くねえ。もっと電圧が不安定な音を出せ。",
+    "trigger": [
+      "gear",
+      "miss"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  },
+  {
+    "id": "gear_deep_010",
+    "text": "ピックアップの高さ調整は終わったか？ 1ミリ変えれば世界が変わる。今日の湿気に合わせろ。",
+    "trigger": [
+      "gear",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "life_deep_001",
+    "text": "耳鳴りが止まねえ……4kHzあたりでずっとモスキート音が鳴ってやがる。マーシャルの壁の前に立ちすぎた報いだ。",
+    "trigger": [
+      "life",
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  },
+  {
+    "id": "life_deep_002",
+    "text": "老眼でポジションマークが霞むんだよ……。心の目でフレットを見るしかねえんだ。",
+    "trigger": [
+      "life",
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "life_deep_003",
+    "text": "昔、家賃のために売っちまった68年のストラト……今いくらするか知ってるか？ ……言うな、吐き気がする。",
+    "trigger": [
+      "life",
+      "shop"
+    ],
+    "rarity": "epic",
+    "face": "KO"
+  },
+  {
+    "id": "life_deep_004",
+    "text": "バンドの解散理由なんてな、9割が「金」か「女」だ。「音楽性の不一致」なんて言葉、辞書から消しちまえ。",
+    "trigger": [
+      "life",
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "life_deep_005",
+    "text": "ボーカルの奴、俺が書いた曲でソロデビューしやがって……。印税？ 1円も入ってねえよ！",
+    "trigger": [
+      "life",
+      "idle"
+    ],
+    "rarity": "epic",
+    "face": "ANGRY"
+  },
+  {
+    "id": "life_deep_006",
+    "text": "尿酸値が高くてな……指より先に足の親指がズキズキしやがる。ビールは控えろよ、若造。",
+    "trigger": [
+      "life",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "life_deep_007",
+    "text": "隣の部屋から苦情が来た。「壁ドン」ってやつだ。……リズムに合わせて叩き返してやったわ。",
+    "trigger": [
+      "life",
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "life_deep_008",
+    "text": "スーパーの半額シールを見ると、なぜかBPMが上がるんだ。……悲しい性（さが）だな。",
+    "trigger": [
+      "life",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "life_deep_009",
+    "text": "昔の彼女に言われたよ。「私とギター、どっちが大事なの？」ってな。……ギターに決まってんだろ。だから俺は独りなんだ。",
+    "trigger": [
+      "life",
+      "clear"
+    ],
+    "rarity": "legendary",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "life_deep_010",
+    "text": "おい、俺の葬式では『Little Wing』を流してくれよ。……イントロだけでいいからな。",
+    "trigger": [
+      "life",
+      "gameover"
+    ],
+    "rarity": "epic",
+    "face": "KO"
+  },
+  {
+    "id": "rival_001",
+    "text": "おい、対バンのギタリスト……マーシャル3段積みだと？ ……中身が空っぽ（ダミー）じゃないか確認してこい！",
+    "trigger": [
+      "battle",
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "ANGRY"
+  },
+  {
+    "id": "rival_002",
+    "text": "髪の毛をスプレーで立ててる暇があったら、リズムを立てろってんだ。……ま、今の俺には髪がねえけどな。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "epic",
+    "face": "KO"
+  },
+  {
+    "id": "rival_003",
+    "text": "リハーサルで本気出すなよ？ 相手を油断させるんだ。『下手なフリ』もしとけ。……お前の場合はフリじゃねえかもな。",
+    "trigger": [
+      "startup",
+      "battle"
+    ],
+    "rarity": "common",
+    "face": "LAUGH"
+  },
+  {
+    "id": "rival_004",
+    "text": "前のバンド、客を全員持って帰りやがった……。フロアにいるのは店のスタッフだけだぞ。燃えてきたな。",
+    "trigger": [
+      "battle",
+      "miss"
+    ],
+    "rarity": "epic",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "rival_005",
+    "text": "「よろしくお願いします」って挨拶に来た若造、俺のエフェクターボードを盗み見してやがった。……1000円取ればよかったな。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "rival_006",
+    "text": "あのボーカル、MCが長すぎる。曲より喋りの方が長いバンドは信用するな。……早く始めろ！",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "ANGRY"
+  },
+  {
+    "id": "rival_007",
+    "text": "楽屋のビール、誰が飲んだ！？ ……俺の『楽しみ』を奪う奴は、対バン相手でも許さねえぞ！！",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "ANGRY"
+  },
+  {
+    "id": "rival_008",
+    "text": "速弾き合戦に乗るなよ？ 相手がフェラーリなら、お前はダンプカーだ。重さで轢き殺せ。",
+    "trigger": [
+      "battle",
+      "boss"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "rival_009",
+    "text": "トリ（最後の出番）のバンドがアンコールやりやがった……。おかげで俺たちの終電がねえぞ。どうしてくれんだ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "rival_010",
+    "text": "おい、今の対バンのギターソロ聴いたか？ ……悔しいが、いいフレーズだったな。……パクるぞ。",
+    "trigger": [
+      "clear"
+    ],
+    "rarity": "epic",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "livehouse_001",
+    "text": "PA（音響）のオヤジを怒らせるなよ？ あいつの一存で、俺たちの音なんて簡単に消されるんだからな。",
+    "trigger": [
+      "idle",
+      "startup"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "livehouse_002",
+    "text": "「中音（なかおと）デカすぎ」って怒られたらな、ボリュームノブを回す「フリ」だけしろ。……心のボリュームを下げるんだ。",
+    "trigger": [
+      "idle",
+      "battle"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "livehouse_003",
+    "text": "チケットノルマ20枚……？ 一枚2000円として……おい、今月の給料全部飛ぶぞ。自腹ライブだ。",
+    "trigger": [
+      "shop",
+      "idle"
+    ],
+    "rarity": "epic",
+    "face": "KO"
+  },
+  {
+    "id": "livehouse_004",
+    "text": "床が酒でベタベタしてやがる……。シールドが張り付いて取れねえ。これぞライブハウスの『ワックス』だ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "livehouse_005",
+    "text": "モニターからボーカルが全然聞こえねえ！ ……勘でハモれ！ テレパシーを使え！",
+    "trigger": [
+      "miss",
+      "battle"
+    ],
+    "rarity": "common",
+    "face": "PANIC"
+  },
+  {
+    "id": "livehouse_006",
+    "text": "ライブハウスのトイレには住人がいるらしいぞ。……壁の落書きを見てみろ、バンドマンの怨念が書いてある。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  },
+  {
+    "id": "livehouse_007",
+    "text": "受付の姉ちゃん、俺たちのバンド名「Tange」を「Dango（団子）」って書き間違えてやがった。……美味しそうじゃねえか。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "livehouse_008",
+    "text": "打ち上げは『某貴族（焼き鳥屋）』か？ ……金がねえときはキャベツだけで朝まで粘るんだ。",
+    "trigger": [
+      "clear",
+      "shop"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "livehouse_009",
+    "text": "照明が眩しすぎて指板が見えねえ！ ……ここだ！ 筋肉の記憶（マッスルメモリー）を信じろ！",
+    "trigger": [
+      "miss",
+      "battle"
+    ],
+    "rarity": "common",
+    "face": "PANIC"
+  },
+  {
+    "id": "livehouse_010",
+    "text": "「ドリンク代別」……この500円玉が、バンドマンの命を繋いでるんだよ。コーラで乾杯だ。",
+    "trigger": [
+      "shop"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "family_001",
+    "text": "「あんた、いつまで夢見てるの？」……母親のこの言葉は、どんなディストーションよりも歪んで聞こえるぜ。",
+    "trigger": [
+      "idle",
+      "gameover"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  },
+  {
+    "id": "family_002",
+    "text": "彼女が俺のギターを「粗大ゴミ」って呼び始めた。……ヴィンテージなんだぞ、これ。価値がわからねえのか。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "family_003",
+    "text": "「うるさい！」って壁を叩かれた。……くそっ、ミュート奏法の練習中だってのに、生音すら許されねえのか。",
+    "trigger": [
+      "miss",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "family_004",
+    "text": "嫁に内緒で買った50万のギター……「ハードオフで5000円だった」って嘘ついた。……バレたら俺は死ぬ。",
+    "trigger": [
+      "shop",
+      "gear"
+    ],
+    "rarity": "epic",
+    "face": "PANIC"
+  },
+  {
+    "id": "family_005",
+    "text": "娘のピアノ発表会には行くのに、俺のライブには誰も来ねえ。……ま、そんなもんだよな、親父のロックなんて。",
+    "trigger": [
+      "idle",
+      "clear"
+    ],
+    "rarity": "legendary",
+    "face": "KO"
+  },
+  {
+    "id": "family_006",
+    "text": "「バンドと私、どっちが大事なの？」……この質問への正解は「君だよ」じゃない。「君に決まってるだろ（ギターを背に隠しながら）」だ。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "family_007",
+    "text": "実家に帰ったら、俺の部屋が物置になってた。……俺の青春（エフェクターボード）はどこへ行ったんだ！？",
+    "trigger": [
+      "startup"
+    ],
+    "rarity": "epic",
+    "face": "PANIC"
+  },
+  {
+    "id": "family_008",
+    "text": "「就職は？」……親戚の集まりで一番聞きたくないフレーズだ。俺は『夢』に就職してるんだよ（震え声）。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "family_009",
+    "text": "デート代をケチって弦を買った。……彼女の冷たい目線が、心に突き刺さるぜ。……でも新しい弦はいい音だ。",
+    "trigger": [
+      "shop"
+    ],
+    "rarity": "common",
+    "face": "LAUGH"
+  },
+  {
+    "id": "family_010",
+    "text": "「パパのギター、臭い」……加齢臭じゃねえ！ これは指板のローズウッドの香りだ！ ……たぶんな。",
+    "trigger": [
+      "gear",
+      "idle"
+    ],
+    "rarity": "rare",
+    "face": "PANIC"
+  },
+  {
+    "id": "studio_001",
+    "text": "おい、ドラムの音がデカすぎて自分の音が聞こえねえ！ ……音量上げろ？ ハウリングするだろうが！",
+    "trigger": [
+      "battle",
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "studio_002",
+    "text": "ベーシストがまた遅刻だ。……あいつら、ルート弾くのは正確なくせに、時間は守れねえんだよな。",
+    "trigger": [
+      "startup",
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "studio_003",
+    "text": "スタジオ代の割り勘で揉めるな。……「俺はコーラスしかしてないから安くして」だ？ ふざけんなボーカル！",
+    "trigger": [
+      "shop",
+      "clear"
+    ],
+    "rarity": "rare",
+    "face": "ANGRY"
+  },
+  {
+    "id": "studio_004",
+    "text": "「ここ、合わせてみよう」って言った瞬間にドラムが叩き始めやがった。……人の話を聞け！ 猿かお前は！",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "studio_005",
+    "text": "練習中にタバコ休憩ばっかり挟むな！ スタジオ代は時間制なんだぞ！ ……まあ、俺も吸うけど。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "studio_006",
+    "text": "シールドが絡まって動けねえ……。誰だ、このスパゲッティを作ったのは！ 足元を整理しろ！",
+    "trigger": [
+      "miss",
+      "battle"
+    ],
+    "rarity": "common",
+    "face": "PANIC"
+  },
+  {
+    "id": "studio_007",
+    "text": "「ジャーン！」って終わるタイミングが合わねえ。……目を見ろ！ 呼吸を合わせろ！ なんで全員下向いてんだ！",
+    "trigger": [
+      "battle",
+      "clear"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "studio_008",
+    "text": "レンタル機材のマーシャル、つまみが全部ガリってる……。叩けば直るか？ ……（バンッ）……よし、直った。",
+    "trigger": [
+      "gear"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "studio_009",
+    "text": "曲作りで喧嘩して気まずい空気……。この沈黙が一番重い。誰か何か弾けよ……。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "epic",
+    "face": "KO"
+  },
+  {
+    "id": "studio_010",
+    "text": "残り時間5分で「新曲やろうぜ」って言い出すな！ 片付けの時間考えろ！ 延長料金はお前が払えよ！？",
+    "trigger": [
+      "clear"
+    ],
+    "rarity": "common",
+    "face": "PANIC"
+  },
+  {
+    "id": "theory_miss_p4",
+    "text": "おい！ それは4度（アボイド）だ！ 3度の響きとぶつかって濁ってんだよ！",
+    "trigger": [
+      "miss_p4"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "theory_miss_p4_2",
+    "text": "F音（ファ）は扱い注意だと言ったろ！ 経過音としてサラッと弾くならいいが、そこで止まるな！",
+    "trigger": [
+      "miss_p4"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "theory_miss_m3",
+    "text": "暗い！ 音が暗いぞ！ 今はメジャーキーだ、マイナー3度を弾いてどうする！",
+    "trigger": [
+      "miss_m3"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "theory_miss_m2",
+    "text": "半音でぶつかってるぞ。不協和音も使いようだが、今のはただのミスタッチだ。",
+    "trigger": [
+      "miss_m2"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "theory_miss_tri",
+    "text": "トライトーン（悪魔の音程）か……。ブルースなら褒めてやったが、ここでは雑音だ。",
+    "trigger": [
+      "miss_tri"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "clear_st1_01",
+    "text": "基本のCメジャー、悪くない。だが指がまだ迷ってるぞ。実家に帰る道（ルート）を忘れるな。",
+    "trigger": [
+      "clear_st1"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "clear_st1_02",
+    "text": "ドレミファソラシド……単純だが、プロでも一生かかる道だ。奢らず進め。",
+    "trigger": [
+      "clear_st1"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "clear_st1_03",
+    "text": "準備運動は終わりだ。ここからが本当の『沼』だぞ？ 覚悟はいいか？",
+    "trigger": [
+      "clear_st1"
+    ],
+    "rarity": "common",
+    "face": "LAUGH"
+  },
+  {
+    "id": "clear_st1_04",
+    "text": "ほう……意外とやるじゃねえか。昨日の酒が抜けたような音だ。",
+    "trigger": [
+      "clear_st1"
+    ],
+    "rarity": "rare",
+    "face": "HAPPY"
+  },
+  {
+    "id": "clear_st1_05",
+    "text": "アイオニアンスケール、攻略完了だな。まあ、幼稚園卒業ってとこだ。",
+    "trigger": [
+      "clear_st1"
+    ],
+    "rarity": "common",
+    "face": "DOYA"
+  },
+  {
+    "id": "clear_st2_01",
+    "text": "そうだ！ その『骨組み』だ！ コードトーンさえ追えれば、アドリブで死ぬことはない。",
+    "trigger": [
+      "clear_st2"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "clear_st2_02",
+    "text": "アルペジオはギターの背骨だ。地味だが、派手な速弾きより価値があるぞ。",
+    "trigger": [
+      "clear_st2"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "clear_st2_03",
+    "text": "3度と7度の位置が見えてきたか？ そこが一番『おいしい』音だ。味わって弾け。",
+    "trigger": [
+      "clear_st2"
+    ],
+    "rarity": "rare",
+    "face": "HAPPY"
+  },
+  {
+    "id": "clear_st2_04",
+    "text": "C, E, G, B……呪文じゃねえぞ。お前を助ける命綱だ。",
+    "trigger": [
+      "clear_st2"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "clear_st2_05",
+    "text": "CAGEDシステム、少しは体に馴染んだか？ 指板をブロックで捉えろ。",
+    "trigger": [
+      "clear_st2"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "clear_st3_01",
+    "text": "Dm7一発！ この『哀愁』と『ファンク』の間にある響き……たまらねえな。",
+    "trigger": [
+      "clear_st3"
+    ],
+    "rarity": "common",
+    "face": "HAPPY"
+  },
+  {
+    "id": "clear_st3_02",
+    "text": "サンタナみたいな顔して弾いてんじゃねえよｗ ……まあ、悪くない雰囲気だ。",
+    "trigger": [
+      "clear_st3"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "clear_st3_03",
+    "text": "マイナーキーだが、6度（B音）の明るさが肝だ。そこを強調できたか？",
+    "trigger": [
+      "clear_st3"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "clear_st4_01",
+    "text": "G7のブルージーな響き……ビールが欲しくなる音だ。いいぞ。",
+    "trigger": [
+      "clear_st4"
+    ],
+    "rarity": "common",
+    "face": "HAPPY"
+  },
+  {
+    "id": "clear_st4_02",
+    "text": "セブンス（F音）への解決、気持ちよかったろ？ それがドミナントの魔力だ。",
+    "trigger": [
+      "clear_st4"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "clear_st4_03",
+    "text": "ロックンロールの基本だな。ルートより7度を狙う奴は、俺は嫌いじゃない。",
+    "trigger": [
+      "clear_st4"
+    ],
+    "rarity": "rare",
+    "face": "DOYA"
+  },
+  {
+    "id": "clear_st5_01",
+    "text": "泣きのギターだな……。昔の演歌を思い出すぜ。日本人の心だ。",
+    "trigger": [
+      "clear_st5"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "clear_st5_02",
+    "text": "Amのマイナーペンタ一発で逃げるなよ？ 9度（B音）を入れて洒落乙に決めろ。",
+    "trigger": [
+      "clear_st5"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "clear_st5_03",
+    "text": "暗い……だが美しい。お前の音色、少し大人になったな。",
+    "trigger": [
+      "clear_st5"
+    ],
+    "rarity": "epic",
+    "face": "NORMAL"
+  },
+  {
+    "id": "clear_st6_01",
+    "text": "ハア……ハア……。全部の音が襲ってきやがったな。よく耐えきった。",
+    "trigger": [
+      "clear_st6"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "clear_st6_02",
+    "text": "クロマチック（半音階）を制する者はジャズを制す。お前、もう初心者じゃねえな。",
+    "trigger": [
+      "clear_st6"
+    ],
+    "rarity": "epic",
+    "face": "DOYA"
+  },
+  {
+    "id": "clear_st6_03",
+    "text": "……認めよう。お前は俺の弟子じゃない。……俺の『ライバル』だ。",
+    "trigger": [
+      "clear_st6"
+    ],
+    "rarity": "legendary",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "clear_st6_04",
+    "text": "クリア祝いだ！ 俺の秘蔵のヴィンテージ・ピック（削れてる）をやるよ。……いらない？",
+    "trigger": [
+      "clear_st6"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "theory_miss_tension_001",
+    "text": "おい！ 今は『アルペジオ』の時間だ！ スケール練習は家でやれ！",
+    "trigger": [
+      "miss_tension"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "theory_miss_tension_002",
+    "text": "それは『9th（ナインス）』だ。お洒落だが、今は骨組み（コードトーン）を作れ。",
+    "trigger": [
+      "miss_tension"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "theory_miss_tension_003",
+    "text": "手癖で弾くな！ 一音一音、機能（ファンクション）を考えろ！",
+    "trigger": [
+      "miss_tension"
+    ],
+    "rarity": "rare",
+    "face": "ANGRY"
+  },
+  {
+    "id": "theory_miss_p4_st2",
+    "text": "ぐあっ！ 4度（アボイド）だ！ 遺跡が崩れる音がしたぞ！",
+    "trigger": [
+      "miss_p4"
+    ],
+    "rarity": "common",
+    "face": "PANIC"
+  },
+  {
+    "id": "theory_miss_M3_001",
+    "text": "明るすぎる！ お前は葬式でサンバを踊る気か！？",
+    "trigger": [
+      "miss_M3"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "theory_miss_M3_002",
+    "text": "空気を読め！ 今は『哀愁』の時間だ。メジャー3度を引っ込めろ！",
+    "trigger": [
+      "miss_M3"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "theory_miss_M3_003",
+    "text": "ポジティブ思考もいいがな、マイナーキーでそれをやると『無神経』って言うんだよ。",
+    "trigger": [
+      "miss_M3"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  },
+  {
+    "id": "theory_miss_M3_004",
+    "text": "その音（M3）は強烈な『解決感』があるが……ここではただの邪魔者だ。",
+    "trigger": [
+      "miss_M3"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "theory_miss_M3_005",
+    "text": "光属性かお前は！ 闇（マイナー3度）を受け入れろ！",
+    "trigger": [
+      "miss_M3"
+    ],
+    "rarity": "epic",
+    "face": "ANGRY"
+  },
+  {
+    "id": "theory_miss_m6_001",
+    "text": "普通だ……。あまりにも普通すぎるマイナー（エオリアン）だ。",
+    "trigger": [
+      "miss_m6"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "theory_miss_m6_002",
+    "text": "ドリアンの肝は『ナチュラル6th』だ！ 半音上げて『希望』を見せろ！",
+    "trigger": [
+      "miss_m6"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "theory_miss_m6_003",
+    "text": "その音（b6）を弾くと、ただの演歌になるぞ。もっと洋楽っぽく洒落こめ。",
+    "trigger": [
+      "miss_m6"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "theory_miss_m6_004",
+    "text": "b6（フラットシックス）へ逃げるな！ 勇気を出して6度を上げろ！",
+    "trigger": [
+      "miss_m6"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "theory_miss_m6_005",
+    "text": "お前のドリアンは腐ってるな……。もっと新鮮な『明るい6度』を響かせろ。",
+    "trigger": [
+      "miss_m6"
+    ],
+    "rarity": "epic",
+    "face": "LAUGH"
+  },
+  {
+    "id": "theory_miss_m6_006",
+    "text": "洞窟の出口はそっち（b6）じゃない！ 光（ナチュラル6th）が差すほうだ！",
+    "trigger": [
+      "miss_m6"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "theory_miss_M6_st5",
+    "text": "明るい！ 6度がドリアンのままじゃねえか！ 今はエオリアンだ、半音下げて泣け！",
+    "trigger": [
+      "miss_tension"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "clear_st5_special",
+    "text": "そのb6（フラットシックス）の響き……お前もようやく『大人の階段』を上ったな。",
+    "trigger": [
+      "clear_st5"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "combo_5_001",
+    "text": "5連コンボ！ その調子だ！",
+    "trigger": [
+      "combo_5"
+    ],
+    "rarity": "common",
+    "face": "HAPPY"
+  },
+  {
+    "id": "combo_5_002",
+    "text": "止めるな！ 波に乗れ！",
+    "trigger": [
+      "combo_5"
+    ],
+    "rarity": "common",
+    "face": "LAUGH"
+  },
+  {
+    "id": "combo_5_003",
+    "text": "ゾーンに入ったか？ その感覚を忘れるな！",
+    "trigger": [
+      "combo_5"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "reminder_st1_01",
+    "text": "St1でやった『Cフォーム』、忘れてねえだろうな？ あれが全ての基本だ。",
+    "trigger": [
+      "reminder"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "reminder_st2_01",
+    "text": "スケールだけじゃねえ。コードトーン（骨組み）も意識しろよ。",
+    "trigger": [
+      "reminder"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "miss_avoid_001",
+    "text": "おい！ そこはこのステージの『タブー』だ！ 絶対に触るな！",
+    "trigger": [
+      "miss_avoid"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "miss_avoid_002",
+    "text": "ルールを読め！ 今の音は禁止カードだ！",
+    "trigger": [
+      "miss_avoid"
+    ],
+    "rarity": "common",
+    "face": "PANIC"
+  },
+  {
+    "id": "miss_generic_fed_up_01",
+    "text": "……またか。学習能力ゼロか？",
+    "trigger": [
+      "miss",
+      "miss_m3_fed_up",
+      "miss_p4_fed_up",
+      "miss_m2_fed_up"
+    ],
+    "rarity": "common",
+    "face": "KO"
+  },
+  {
+    "id": "miss_generic_fed_up_02",
+    "text": "（大きくため息をつく音）",
+    "trigger": [
+      "miss",
+      "miss_m3_fed_up",
+      "miss_p4_fed_up",
+      "miss_tension_fed_up"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "miss_generic_fed_up_03",
+    "text": "もう怒る気もしねえ。好きに弾けば？",
+    "trigger": [
+      "miss",
+      "miss_avoid_fed_up",
+      "miss_tri_fed_up"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  }
+]

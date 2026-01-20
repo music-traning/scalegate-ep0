@@ -1,0 +1,147 @@
+[
+  {
+    "id": "boss_start_01",
+    "text": "我が森へようこそ……。宴の始まりだ。",
+    "trigger": [
+      "startup",
+      "boss"
+    ],
+    "rarity": "common",
+    "face": "NORMAL"
+  },
+  {
+    "id": "boss_start_02",
+    "text": "貴様の音色……、どこまで通用するか見ものだな。",
+    "trigger": [
+      "startup",
+      "boss"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "boss_idle_01",
+    "text": "……遅い。恐怖で指が動かぬか？",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "boss_idle_02",
+    "text": "じれったい……。早く攻めてこい。",
+    "trigger": [
+      "idle"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "boss_miss_01",
+    "text": "愚かな。その音は私の身体には届かん。",
+    "trigger": [
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "boss_miss_02",
+    "text": "浅い！ 浅すぎるぞ！",
+    "trigger": [
+      "miss"
+    ],
+    "rarity": "common",
+    "face": "LAUGH"
+  },
+  {
+    "id": "boss_miss_03",
+    "text": "フハハ！ 貴様の迷いが見えるわ！",
+    "trigger": [
+      "miss"
+    ],
+    "rarity": "rare",
+    "face": "LAUGH"
+  },
+  {
+    "id": "boss_miss_fedup_01",
+    "text": "飽きた……。貴様には『殺意』が足りない。",
+    "trigger": [
+      "miss_m3_fed_up",
+      "miss_p4_fed_up",
+      "miss_m2_fed_up",
+      "miss_tension_fed_up",
+      "miss_avoid_fed_up",
+      "miss_tri_fed_up",
+      "miss_M3_fed_up",
+      "miss_m6_fed_up",
+      "miss_m7_fed_up"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "boss_damage_01",
+    "text": "グッ……！ 小癪な……！",
+    "trigger": [
+      "damage"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "boss_damage_02",
+    "text": "効かぬ……！ その程度か！",
+    "trigger": [
+      "damage"
+    ],
+    "rarity": "common",
+    "face": "LAUGH"
+  },
+  {
+    "id": "boss_damage_03",
+    "text": "ほう……今の音は悪くない。",
+    "trigger": [
+      "damage"
+    ],
+    "rarity": "rare",
+    "face": "NORMAL"
+  },
+  {
+    "id": "boss_combo_01",
+    "text": "ヌウッ……調子に乗るなよ！",
+    "trigger": [
+      "combo_5"
+    ],
+    "rarity": "common",
+    "face": "ANGRY"
+  },
+  {
+    "id": "boss_combo_02",
+    "text": "……ふん、少しはやるようだな。",
+    "trigger": [
+      "combo_5"
+    ],
+    "rarity": "rare",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "boss_gameover_01",
+    "text": "出直すがいい。森は貴様を拒絶した。",
+    "trigger": [
+      "gameover"
+    ],
+    "rarity": "common",
+    "face": "SERIOUS"
+  },
+  {
+    "id": "boss_gameover_02",
+    "text": "弱い、弱すぎる。骨すら残らんぞ。",
+    "trigger": [
+      "gameover"
+    ],
+    "rarity": "rare",
+    "face": "KO"
+  }
+]

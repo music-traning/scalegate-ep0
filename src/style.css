@@ -1,0 +1,461 @@
+/* style.css - V7 (6弦フル表示対応版) */
+
+/* --- 全体設定 --- */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --bg-color: #000;
+  --text-color: #33ff33;
+  --dim-color: #005500;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* アプリ本体 */
+.container {
+  width: 100%;
+  height: 100%; 
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #000;
+  color: var(--text-color);
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  /* 上下の余白を極限まで削る */
+  padding: max(2px, var(--safe-top)) 5px max(2px, var(--safe-bottom)) 5px;
+  overflow: hidden;
+}
+
+/* --- オープニング画面 --- */
+#opening-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+#title-overlay {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: #000;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title-overlay h1 {
+  border: 2px solid var(--text-color);
+  padding: 15px;
+  text-align: center;
+  font-size: clamp(16px, 5vw, 24px); 
+  width: 90%;
+  background: #000;
+}
+
+#op-skip {
+  position: absolute;
+  top: max(10px, var(--safe-top));
+  right: 10px;
+  background: #000;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 5px 10px;
+  z-index: 60;
+  cursor: pointer;
+}
+
+#op-visual {
+  flex: 1;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--dim-color);
+  margin-bottom: 5px;
+}
+#op-aa {
+  font-size: 10px;
+  white-space: pre;
+  text-align: center;
+  line-height: 1;
+}
+
+#op-content {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  position: relative; 
+}
+
+#op-name {
+  background: var(--text-color);
+  color: #000;
+  font-size: 10px;
+  padding: 2px 5px;
+  align-self: flex-start;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+#op-text {
+  height: 120px;
+  flex: 0 0 120px;
+  border: 1px dashed #222;
+  padding: 8px;
+  padding-bottom: 25px; 
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#op-choices {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#op-next {
+  position: absolute;  
+  bottom: 15px;      
+  right: 10px;       
+  width: auto;
+  background: #000;
+  border: 1px solid #333;
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  animation: blink 1s infinite;
+  z-index: 10;
+}
+
+@keyframes blink { 50% { opacity: 0.5; } }
+
+/* --- ゲーム画面（大幅調整） --- */
+#game-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ★コックピットの高さを90pxに縮小 */
+#cockpit {
+  height: 90px;
+  flex: 0 0 90px;
+  display: flex;
+  border: 2px solid var(--text-color);
+  margin-bottom: 2px; /* 余白も減らす */
+  background: #000;
+}
+
+/* AAボックスも幅を少し減らす */
+#aa-box {
+  width: 70px;
+  flex: 0 0 70px;
+  border-right: 1px solid var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: pre;
+  font-size: 9px; /* AAサイズ微調整 */
+  overflow: hidden;
+}
+
+#text-panel {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  overflow: hidden;
+}
+
+#name-tag {
+  background: var(--text-color);
+  color: #000;
+  font-size: 9px;
+  padding: 1px 4px;
+  align-self: flex-start;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+#msg-box {
+  flex: 1;
+  font-size: 11px; /* 文字を少し小さくして行数を稼ぐ */
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+
+#game-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+}
+
+#info-bar {
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+  font-size: 11px;
+  min-height: 25px; /* 高さを最小限に */
+  flex-shrink: 0;
+}
+
+#back-to-menu {
+  width: auto;
+  padding: 3px 6px;
+  margin: 0;
+  font-size: 10px;
+  border: 1px solid var(--text-color);
+  background: #000;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+/* ★ここが重要：指板エリアの調整 */
+#fretboard-area {
+  flex: 1; /* 残りのスペースを全て使う */
+  min-height: 0;
+  overflow-x: auto; /* 横スクロールのみ許可 */
+  overflow-y: hidden; /* 縦スクロールはさせず収める */
+  border: 1px solid #444;
+  background: #222;
+  margin-top: 2px;
+  white-space: nowrap;
+  
+  /* ★魔法の記述: 中身を少し縮小して画面に収める */
+  /* iPhoneなどのモバイルブラウザで有効 */
+  zoom: 0.9; 
+}
+
+.controls {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ボタン共通 */
+button {
+  background: #000;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 12px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* モーダル */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.95);
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-content {
+  width: 100%;
+  max-width: 400px;
+  background: #000;
+  border: 2px solid var(--text-color);
+  padding: 15px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* 正解時の発光エフェクト */
+@keyframes flash-green {
+  0% { transform: scale(1); box-shadow: 0 0 0 transparent; }
+  50% { transform: scale(1.2); box-shadow: 0 0 15px #33ff33; z-index: 10; background: #33ff33; color: black; }
+  100% { transform: scale(1); box-shadow: 0 0 0 transparent; }
+}
+
+/* ミス時の振動エフェクト */
+@keyframes shake-red {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-3px) rotate(-2deg); background: #ff3333; }
+  50% { transform: translateX(3px) rotate(2deg); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+.hit-anim {
+  animation: flash-green 0.3s ease-out;
+}
+
+.miss-anim {
+  animation: shake-red 0.4s ease-in-out;
+}
+
+/* --- 霧（Fog of War）エフェクト --- */
+/* --- 霧（Fog of War）エフェクト（修正版） --- */
+/* 対象外エリア：薄暗くするが、完全に消さない */
+.foggy {
+  opacity: 0.3;             /* 視認できるレベルまで少し明るく */
+  filter: grayscale(80%);   /* 彩度を落として非アクティブ感を出す */
+  /* pointer-events: none; を削除し、クリック可能にします */
+  /* 間違えて押すと弦さんに怒られる仕様になります */
+}
+
+/* --- ポジションマーク（新規追加） --- */
+/* ポジションマークがあるフレットのボタンに対するスタイル */
+.pos-mark {
+  position: relative; /* 擬似要素の基準点にする */
+}
+
+/* 通常のドット (3, 5, 7, 9フレット) */
+.pos-mark::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;       /* ボタンの下部に配置 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #aaa; /* 少し落ち着いたドットの色 */
+  border-radius: 50%;
+  pointer-events: none;   /* ドット自体はクリック判定に影響させない */
+  opacity: 0.6;
+}
+
+/* 12フレットのダブルドット */
+.pos-mark-12::after {
+  /* 1つ目のドット */
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 35%; /* 左にずらす */
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #aaa;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.6;
+  /* 2つ目のドットを影で表現 */
+  box-shadow: 15px 0 0 #aaa; /* 右に15pxずらしてもう一つ描画 */
+}
+
+/* ========================================================= */
+/* ★新規追加: Boss戦用UI & 演出強化 */
+/* ========================================================= */
+
+#boss-hp-container {
+    position: absolute;
+    top: 5px; right: 5px;
+    width: 30%; /* スコアの横、または上に配置 */
+    height: 10px;
+    border: 1px solid red;
+    background: #300;
+    display: none; /* デフォルト非表示 */
+    z-index: 20;
+}
+
+#boss-hp-bar {
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: width 0.3s ease-out;
+}
+
+/* 画面全体のシェイク（ダメージ演出） */
+@keyframes screen-shake {
+    0% { transform: translate(0,0); }
+    10% { transform: translate(-5px, -5px); }
+    30% { transform: translate(5px, 0px); }
+    50% { transform: translate(-3px, 3px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0,0); }
+}
+
+.shake-screen {
+    animation: screen-shake 0.3s ease-out;
+    border: 2px solid red; /* 画面端が赤く光る */
+}
+
+/* ポップアップスコア */
+.popup-score {
+    position: absolute;
+    color: #ffff00;
+    font-weight: bold;
+    font-size: 16px;
+    pointer-events: none;
+    animation: popup-move 1s ease-out forwards;
+    z-index: 100;
+    text-shadow: 0 0 2px black;
+}
+
+@keyframes popup-move {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-30px); opacity: 0; }
+}
+
+/* 強化版 HIT */
+@keyframes flash-green-burst {
+  0% { transform: scale(1); box-shadow: 0 0 0 transparent; }
+  20% { transform: scale(1.3); background: #ccffcc; box-shadow: 0 0 20px #33ff33; z-index: 10; color: #000; }
+  100% { transform: scale(1); box-shadow: 0 0 0 transparent; }
+}
+
+.hit-anim {
+  animation: flash-green-burst 0.4s ease-out;
+}
+
+/* 強化版 MISS */
+@keyframes shake-red-severe {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-5px) rotate(-5deg); background: #ff0000; color:white;}
+  30% { transform: translateX(5px) rotate(5deg); }
+  50% { transform: translateX(-5px); }
+  70% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.miss-anim {
+  animation: shake-red-severe 0.4s ease-in-out;
+}
