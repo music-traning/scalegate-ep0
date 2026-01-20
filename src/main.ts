@@ -1,3 +1,7 @@
+import { inject } from '@vercel/analytics';
+
+inject();
+
 import './style.css';
 import { GenSan } from './characters/GenSan';
 import { AudioSystem } from './engine/AudioSystem';
@@ -21,7 +25,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 <div id="total-score-display" style="color: #3f3; margin-bottom: 5px; font-size: 12px;"></div>
                 <button id="data-reset" style="background:transparent; border:none; color:#444; font-size:10px; cursor:pointer; text-decoration:underline;">Delete Data</button>
                 <br>
-                ©2026 buro <a href="https://note.com/jazzy_begin" target="_blank" style="color:#666; text-decoration:none;">[Note]</a>
+                ©2026  <a href="https://note.com/jazzy_begin" target="_blank" style="color:#666; text-decoration:none;">buro</a>
             </div>
         </div>
         
